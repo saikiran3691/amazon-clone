@@ -1,0 +1,18 @@
+.checkout__ad
+{
+    width: 100%;
+}
+
+.checkout__title
+{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.checkout__title > p
+{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import "./Product.css";
 import { useStateValue } from './StateProvider';
 
@@ -19,7 +19,7 @@ function Product({id, title, price, rating, image}) {
                 price: price,
                 rating: rating
             }
-        })
+        });
     };
 
     return (
@@ -32,7 +32,9 @@ function Product({id, title, price, rating, image}) {
             </p>
             <div className = "product__rating">
                 {
-                    Array(rating).fill().map((_) => (
+                    Array(rating)
+                    .fill()
+                    .map((_) => (
                         <p>⭐</p>
                     ))
                 }
@@ -43,7 +45,7 @@ function Product({id, title, price, rating, image}) {
             <button onClick = {addToBasket}>Add to Basket</button>
         </div>
     </div>
-    )
+    );
 }
 
 export default Product;

@@ -30,7 +30,6 @@
 .product__rating
 {
     display: flex;
-    
 }
 
 .product > img
@@ -47,5 +46,5 @@
     background-color: #f0c14b;
     border: 1px solid;
     border-color: #a88734 #9c7e31 #846a29;
+    padding: 5px;
 }
-
