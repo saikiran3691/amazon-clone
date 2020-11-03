@@ -9,6 +9,7 @@ import reducer, { initialState } from './reducer';
 ReactDOM.render(
   <React.StrictMode>
     <StateProvider initialState = {initialState} reducer = {reducer}>
+      <title>Amazon Clone</title>
       <App />
     </StateProvider>
   </React.StrictMode>,
