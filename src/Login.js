@@ -36,10 +36,10 @@ const Login = () => {
     return (
         <div className = "login">
             <Link to = "/">
-                <img className = "login__logo"
+                {/* <img className = "login__logo"
                 src = "http://www.pngmart.com/files/8/Amazon-PNG-Transparent-Image.png"
                 alt = ""
-                />
+                /> */}
             </Link>
             <div className = "login__container">
                 <h1>Sign In</h1>
